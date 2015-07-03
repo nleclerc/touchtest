@@ -1,0 +1,26 @@
+body, html {
+    background: black;
+    font-family: sans-serif;
+    color: white;
+
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    width: 100%;
+}
+
+.circle {
+    position: absolute;
+
+    $side: 80px;
+    height: $side;
+    width: $side;
+
+    border-radius: $side /2;
+
+    margin-top: - $side/2;
+    margin-left: - $side/2;
+
+    background-color: blue;
+}
